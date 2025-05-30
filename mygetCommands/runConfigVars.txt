@@ -1,0 +1,18 @@
+
+# for Spring 2020
+
+myget -m history -c 'HD:coda:daq:run_number' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee run_number.txt
+myget -m history -c 'HD:CBREM:PLANE' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee cbrem_plane.txt
+myget -m history -c 'HD:coda:daq:status' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee daq_status.txt
+
+
+myget -m history -c 'HD:GONI:X' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee goni_x.txt
+myget -m history -c 'HD:GONI:X.RBV' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee goni_x_rbv.txt
+myget -m history -c 'HD:GONI:Y' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee goni_y.txt
+myget -m history -c 'HD:GONI:Y.RBV' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee goni_y_rbv.txt
+myget -m history -c 'HD:GONI:PITCH' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee goni_pitch.txt
+myget -m history -c 'HD:GONI:PITCH.RBV' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee goni_pitch_rbv.txt
+myget -m history -c 'HD:GONI:YAW' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee goni_yaw.txt
+myget -m history -c 'HD:GONI:YAW.RBV' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee goni_yaw_rbv.txt
+myget -m history -c 'HD:GONI:ROLL' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee goni_roll.txt
+myget -m history -c 'HD:GONI:ROLL.RBV' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee goni_roll_rbv.txt

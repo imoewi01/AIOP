@@ -1,0 +1,12 @@
+# detailed information about the beam, read every second (most likely)
+myget -m history -c 'HALLD:p' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee ebeam_energy.txt
+myget -m history -c 'HD:CBREM:EDGE' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee photonbeam_energy.txt
+myget -m history -c 'HD:CBREM:REQ_EDGE' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee photonbeam_energy_desired.txt
+myget -m history -c 'HD:CBREM:WIDTH' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee photonbeam_energy_uncertainty.txt
+myget -m history -c 'AC:inner:position:x' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee ac_x.txt
+myget -m history -c 'AC:inner:position:y' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee ac_y.txt
+myget -m history -c 'IPM5C11B.XPOS' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee ebeam_x.txt
+myget -m history -c 'IPM5C11B.YPOS' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee ebeam_y.txt
+myget -m history -c 'IBCAD00CRCUR6' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee ebeam_current.txt
+myget -m history -c 'HD:GONI:RADIATOR_NAME' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee radiator_name.txt
+myget -m history -c 'HD:GONI:RADIATOR_ID' -b '2020-01-11 00:00:00' -e '2020-09-21 12:00:00' | tee radiator_id.txt
