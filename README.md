@@ -16,7 +16,10 @@ The following outlines the steps to use the code. A more comprehensive descripti
 The remaining notebooks are used to visualize different classes of nudge events. They include 
 
 a) nonudge-study_combined.ipynb: Used to look at correlations between electron beam and photon beam parameters for each run period.
+
 b) singlenudge-study.ipynb: Used to visualize nudge sequences and estimate the energy change per nudge 
+
 c) multinudge_combined.ipynb: Used to get a much better estimate of the energy change per nudge by fitting a plot of energy change vs number of nudges. Also visualize the nudge sequences as time series plots 
+
 d) backlash_study_combined.ipynb: Used to investigate instances of backlash in the goniometer. 
 
